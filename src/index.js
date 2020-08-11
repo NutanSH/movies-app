@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import Home from './screens/home/Home';
 
 ReactDOM.render(
-    <Home/>,
+  <Home />,
   document.getElementById('root')
 );
 
