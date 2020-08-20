@@ -93,7 +93,7 @@ class Details extends Component {
         }
         return (
             <div className="details">
-                <Header />
+                <Header showBookShowButton="true"/>
                 <div className="back">
                     <Typography onClick={this.backtohomehandler}>
                         &#60; Back to Home
@@ -146,8 +146,10 @@ class Details extends Component {
 
 
                     <div className="rightDetails">
-
-                        <Typography>
+                        <Typography className="bold">
+                            <span>Rate this movie:</span>
+                        </Typography>
+                         <Typography>
                             <span className="bold">Rate this movie: </span>
                         </Typography>
                         {this.state.starIcons.map(star => (
